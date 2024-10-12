@@ -1,0 +1,12 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Project 00</string>
+
+    <!-- Button Labels -->
+    <string name="add_tab">Add Tab</string>
+    <string name="close_tab">Close Tab</string>
+    <string name="refresh">Refresh</string>
+    <string name="download">Download</string>
+    <string name="special_tab">Special Video Tab</string>
+</resources>￼Enter
