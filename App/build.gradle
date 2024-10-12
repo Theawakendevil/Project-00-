@@ -1,0 +1,28 @@
+// app/build.gradle
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 33 // Use the latest SDK version
+
+    defaultConfig {
+        applicationId "com.example.project00"
+        minSdk 21 // Minimum SDK version
+        targetSdk 33 // Target SDK version
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    implementation 'androidx.fragment:fragment:1.5.7'
+}￼Enter
